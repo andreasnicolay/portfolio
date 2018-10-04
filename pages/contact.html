@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>contact</title>
+<link href="../styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="header">
+	<a href="../index.html"><img class="picture" src="../images/logo.jpg" width="75px" height="75px" alt="Logo"/></a>
+		<!-- den klassiske metode -->
+	<ul id="navigation">
+		
+	<li><a href="../index.html">Home</a></li>
+	<li><a href="projects.html">Projects</a></li>
+	<li><a href="skills.html">Skills</a></li>
+	<li><a href="contact.html">Contact</a></li>
+	<li><a href="aboutme.html">About me</a></li>
+	</ul>
+	</div>
+	<!-- flexbox-metoden -->
+	
+	<h1 class="conhead">Ways to contact me</h1>
+	
+	<img class="icon" src="../images/mail.jpg" width="200px" height="150px" alt="mail"/>
+	<img class="icon" src="../images/phone.jpg" width="200px" height="150px" alt="phone"/>
+	<img class="icon" src="../images/address.jpg" width="200px" height="150px" alt="address"/>
+	<img class="icon" src="../images/facebook.jpg" width="200px" height="150px" alt="facebook"/><br><br>
+	
+	<p>andreas.nicolay@gmail.com</p>
+	<p>+45 21 22 24 51</p>
+	<p>Damager Vænge 57<br>
+	2670 Greve<br>
+	Denmark</p>
+	<a href="https://www.facebook.com/andreas.nicolay.12" target="_blank"><p>Facebook</p></a>
+	<br><br>
+	<div class="container">
+ 	<form action="mailto:andreas.nicolay@gmail.com" method="post" enctype="text/plain">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	
+    <label for="email">E-mail</label>
+    <input type="text" id="email" name="email" placeholder="Your e-mail..">
+
+    <label for="help">What do you need help with?</label>
+    <select id="help" name="">
+      <option value="website">Website</option>
+      <option value="logo">Logo</option>
+      <option value="video">Video</option>
+		<option value="photo">Photo</option>
+		<option value="other">Other</option>
+		
+		
+	
+    </select>
+
+    <label for="description">Description</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+	
+<footer>
+<small>Copyright &copy; 2018 Andreas Nicolay designs</small>
+</footer>
+</body>
+</html>
